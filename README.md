@@ -18,4 +18,4 @@ This example is a lightweight version of the NuPIC tutorial [Hot Gym Tutorial](h
 
 ## Screenshot
 
-[Example Screenshot](https://raw.githubusercontent.com/marionleborgne/nupic.example/master/screenshot.png)
+![Example Screenshot](https://raw.githubusercontent.com/marionleborgne/nupic.example/master/screenshot.png)
