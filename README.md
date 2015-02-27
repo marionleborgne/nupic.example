@@ -1,7 +1,5 @@
 ## How to Run
 
-Change to `example`.
-
 To run and output data to a local file:
 
     python run.py
