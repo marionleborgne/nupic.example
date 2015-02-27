@@ -2,11 +2,11 @@
 
 To run and output data to a local file:
 
-    python run.py
+    python example/run.py
 
 To run and output data to a **matplotlib** graph:
 
-    python run.py --plot
+    python example/run.py --plot
 
 > You must have **matplotlib** properly installed for this option to work.
 
