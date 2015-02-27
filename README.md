@@ -1,12 +1,14 @@
 ## How to Run
 
+Change to `example`.
+
 To run and output data to a local file:
 
-    ./run.py
+    python run.py
 
 To run and output data to a **matplotlib** graph:
 
-    ./run.py --plot
+    python run.py --plot
 
 > You must have **matplotlib** properly installed for this option to work.
 
@@ -16,4 +18,4 @@ This example is a lightweight version of the NuPIC tutorial [Hot Gym Tutorial](h
 
 ## Screenshot
 
-[Example Screenshot]()
+[Example Screenshot](https://raw.githubusercontent.com/marionleborgne/nupic.example/master/screenshot.png)
