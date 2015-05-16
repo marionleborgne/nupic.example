@@ -1,5 +1,11 @@
 ## How to Run
 
+Make sure your CSV file is called `scalar_data.csv` and has the same headers as the file `scalar_data_template.csv`. First column should be named `timestamp` and second column should be `scalar_value`.
+
+First, generate the model params:
+
+    python example/generate_model_params.py
+
 To run and output data to a local file:
 
     python example/run.py

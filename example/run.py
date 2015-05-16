@@ -43,7 +43,8 @@ CSV_NAME = "scalar_data"
 DATA_DIR = "."
 MODEL_PARAMS_DIR = "./model_params"
 # '7/2/10 0:00'
-DATE_FORMAT = "%m/%d/%y %H:%M"
+#DATE_FORMAT = "%m/%d/%y %H:%M"
+DATE_FORMAT = "%m/%d/%y"
 
 
 def createModel(modelParams):
@@ -89,7 +90,7 @@ def runIoThroughNupic(inputData, model, csvName, plot):
   :param csvName: CSV name, used for output handler naming
   :param plot: Whether to use matplotlib or not. If false, uses file output.
   """
-  inputFile = open(inputData, "rb")
+  inputFile = open(inputData, "rU")
   csvReader = csv.reader(inputFile)
   # skip header rows
   csvReader.next()
@@ -144,7 +145,7 @@ def runModel(csvName, plot=False):
 
 if __name__ == "__main__":
   print DESCRIPTION
-  plot = False
+  plot = True
   args = sys.argv[1:]
   if "--plot" in args:
     plot = True
